@@ -1,27 +1,32 @@
 div:hover {
-  border: 2px solid red;
+  border: solid gray;
 }
-.primaria {
-  color: blue;
-  background-color: black;
-  font-style: italic;
+
+div:nth-child(3) {
+  color: rgb(70, 196, 70);
 }
-.secundaria {
-  color: yellow;
-  background-color: red;
+
+div:nth-child(4) {
+  color: rgb(255, 136, 0);
 }
-.complementar {
-  color: blueviolet;
-  background-color: aqua;
-  font-size: larger;
-  font-style: italic;
+
+div:nth-child(5) {
+  color: rgb(125, 134, 125);
+  font-size: x-large;
 }
-.escura {
-  color: darkblue;
-  background-color: yellow;
+
+div:nth-child(6) {
+  color: rgb(17, 0, 255);
 }
-.clara {
-  color: lightcoral;
-  background-color: green;
+
+div:nth-child(7) {
+  color: rgb(0, 174, 255);
+}
+
+h3 {
+  font-family: monospace;
+}
+
+div:nth-child(odd) {
   font-style: italic;
 }
